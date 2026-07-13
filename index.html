@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>VigilCar - Alarma Inteligente</title>
+    <title>VigilCar - Alarma para Carro</title>
     <style>
-        body { font-family: Arial; text-align: center; padding: 40px; background: #0a0a0a; color: white; }
-        h1 { color: #00ff9d; }
-        .boton { background: #00ff9d; color: black; padding: 15px 30px; font-size: 18px; border: none; border-radius: 50px; margin: 20px; }
+        body { font-family: Arial; text-align: center; background: #0a0a0a; color: white; padding: 20px; margin: 0; }
+        h1 { color: #00ff9d; font-size: 38px; }
+        p { font-size: 19px; margin: 15px 0; }
+        .precio { font-size: 32px; color: #00ff9d; font-weight: bold; }
+        .boton { 
+            background: #00ff9d; color: black; padding: 15px 30px; font-size: 18px; 
+            border: none; border-radius: 50px; margin: 10px; font-weight: bold;
+        }
+        .whatsapp { background: #25D366; color: white; padding: 15px 30px; font-size: 18px; border-radius: 50px; text-decoration: none; display: inline-block; margin-top: 20px; }
     </style>
 </head>
 <body>
     <h1>🚗 VigilCar</h1>
-    <p>Tu alarma de carro más inteligente</p>
-    <button class="boton">Activar Alarma</button>
-    <button class="boton">Ver Estado</button>
+    <p>Alarma inteligente para carros</p>
+    
+    <p class="precio">$120</p>
+    <p>Incluye instalación</p>
+    
+    <button class="boton" onclick="alert('✅ Alarma activada correctamente')">Activar Alarma</button>
+    <button class="boton" onclick="alert('📍 Tu vehículo está seguro')">Ver Estado</button>
+    
+    <a href="https://wa.me/584122345678" class="whatsapp" target="_blank">
+        📲 Escríbeme por WhatsApp
+    </a>
+    
+    <p style="margin-top: 50px; font-size: 15px;">Protege lo que más quieres</p>
 </body>
 </html>
